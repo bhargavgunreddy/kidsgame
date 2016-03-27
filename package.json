@@ -1,0 +1,20 @@
+{
+  "name": "psadmin",
+  "version": "1.0.0",
+  "description": "psadmin",
+  "main": "index.html",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "react",
+    "flux"
+  ],
+  "author": "bhargav",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "*",
+    "gulp-connect": "*",
+    "gulp-open": "*"
+  }
+}

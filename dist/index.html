@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="app.css">
+	<title>PLural Admin</title>
+</head>
+<body>
+	<div>
+		<p>Drag items to reaarange them into the group they belong to
+		Timer starts as soon as start button is pressed. If you fail to rearrange within
+		30 sec then you lose !!.
+		</p>
+	</div>
+	<section class="wrapper">
+		<div class="sideNav">
+				<div class = 'fruit' name = 'fr_apple'> 
+					<img src="applw.jpeg"/>
+				</div>
+			
+				<div class = 'fruit' name = 'fr_banana'> 
+					<img src="banana.jpeg"/>
+				</div>
+		
+				<div class = 'fruit' name = 'fr_orange'> 
+					<img src="orange.jpeg"/>
+				</div>
+		
+				<div class = 'fruit' name = 'sw_ariselu'> 
+					<img src="ariselu.jpeg"/>
+				</div>
+		
+			
+		</div>
+		<div class="mainSec">
+			
+			<div class = 'fruit' name = 'sw_son_papdi'> 
+				<img src="son_papdi.jpeg"/>
+			</div>
+		
+			<div class = 'fruit' name = 'sw_kaju_barfi'> 
+				<img src="kaju_barfi.jpeg"/>
+			</div>
+	
+			<div class = 'fruit' name = 'fr_grapes'> 
+				<img src="grapes.jpeg"/>
+			</div>
+	
+			<div class = 'fruit' name = 'sw_gulab_jamun'> 
+				<img src="gulab_jamun.jpeg"/>
+			</div>
+
+
+		</div>
+
+		<div class = 'footer'>
+			<div class = 'bottom'>
+				<button id = 'start'> START</button>
+			</div>
+			<div class = 'bottom result' >
+				<span id = 'timer'>00:00</span>
+			</div>
+			<div class = 'bottom'>
+				<button id = 'stop'> STOP</button>
+			</div>
+
+		</div>
+	 </section>
+	 <script src="https://code.jquery.com/jquery-2.2.2.min.js" 
+				integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" 
+				crossorigin="anonymous"></script>
+	 
+	 <script type="text/javascript" src='dragg.js'></script>
+	 <script type="text/javascript" src = "app.js"></script>
+</body>
+</html>
